@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.navbar li {
+    margin: 0 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: #f0a500;
+}
+
+.hero-section {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.cta-button {
+    background-color: #f0a500;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.cta-button:hover {
+    background-color: #d18e00;
+}
+
+/* About, Services, Contact Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+section p {
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
